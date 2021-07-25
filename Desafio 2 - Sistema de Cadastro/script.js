@@ -63,16 +63,16 @@ form.addEventListener('submit', (e) =>{
     let corprin = document.getElementById('corprin').value;
     let material = document.getElementById('material').value;
     let data ={
-        produto,
-        codigo,
-        departamento,
-        loja,
-        quantidade,
-        tamanho,
-        marca,
-        preco,
-        corprin,
-        material,
+        "produto": produto,
+        "codigo": codigo,
+        "departamento": departamento,
+        "loja": loja,
+        "quantidade": quantidade,
+        "tamanho": tamanho,
+        "marca": marca,
+        "preco": preco,
+        "corprin": corprin,
+        "material": material,
     }
     let convertData = JSON.stringify(data);
 
