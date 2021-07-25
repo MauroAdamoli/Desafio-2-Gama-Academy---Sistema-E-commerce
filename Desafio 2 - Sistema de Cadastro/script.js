@@ -21,24 +21,24 @@ form.addEventListener('submit', (e) =>{
     let cidade = document.getElementById('cidade').value;
     let estado = document.getElementById('estado').value;
     let data ={
-        email,
-        email2,
-        name,
-        surname,
-        sex,
-        cpf,
-        tel,
-        cel,
-        nasci,
-        pass,
-        pass2,
-        cep,
-        rua,
-        numero,
-        comple,
-        bairro,
-        cidade,
-        estado
+        'email': email,
+        'email2': email2,
+        'name': name,
+        'surname': surname,
+        'sex': sex,
+        'cpf': cpf,
+        'tel': tel,
+        'cel': cel,
+        'nasci': nasci,
+        'pass': pass,
+        'pass2': pass2,
+        'cep': cep,
+        'rua': rua,
+        'numero': numero,
+        'comple': comple,
+        'bairro': bairro,
+        'cidade': cidade,
+        'estado': estado
     }
     let convertData = JSON.stringify(data);
 
@@ -63,16 +63,16 @@ form.addEventListener('submit', (e) =>{
     let corprin = document.getElementById('corprin').value;
     let material = document.getElementById('material').value;
     let data ={
-        "produto": produto,
-        "codigo": codigo,
-        "departamento": departamento,
-        "loja": loja,
-        "quantidade": quantidade,
-        "tamanho": tamanho,
-        "marca": marca,
-        "preco": preco,
-        "corprin": corprin,
-        "material": material,
+        'produto': produto,
+        'codigo': codigo,
+        'departamento': departamento,
+        'loja': loja,
+        'quantidade': quantidade,
+        'tamanho': tamanho,
+        'marca': marca,
+        'preco': preco,
+        'corprin': corprin,
+        'material': material,
     }
     let convertData = JSON.stringify(data);
 
