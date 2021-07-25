@@ -49,10 +49,22 @@ footer {
     font-size: 25px;
     color: midnightblue;
   }
+
+form{
+    color: #1E90FF;
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+.newform{
+  color: #1E90FF;
+  display: grid;
+  grid-template-columns: 450px 420px;
+}
   
   .section-container{
     height: calc(120vh - 90px);
-    width: 70vw;
+    width: 95vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +73,7 @@ footer {
     
     .section-container2{
     height: calc(60vh - 90px);
-    width: 40vw;
+    width: 35.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
